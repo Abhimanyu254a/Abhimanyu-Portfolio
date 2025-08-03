@@ -1,0 +1,55 @@
+@import "tailwindcss";  
+
+.Container{
+
+}
+.top{
+    background-color: #121212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    background-color: #16003c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-self: center;
+}
+.large-top{
+    width: 510px;
+    padding : 50px 50px 50px 50px;
+    height: 475px;
+    border-color: royalblue;
+    border-width:10px 10px 10px 10px;
+}
+.large-bottom{
+    width: 510px;
+    padding : 50px 50px 50px 50px;
+    height: 475px;
+    border-color: royalblue;
+    border-width:10px 10px 10px 10px;
+}
+
+.small{
+    width:100px;
+    height:100px;
+    border-width: 10px 10px 10px 10px;
+    border-color: red;
+}
+.center{
+    width:200px;
+    height:200px;
+    border-width:10px 10px 10px 10px;
+    border-color:blueviolet;
+}
+.middle{
+    width:150px;
+    height: 150px;
+    border-width:10px 10px 10px 10px;
+    border-color:cyan   ;
+}

@@ -1,10 +1,14 @@
+import Grid from './components/Grid.jsx'
+
 
 function App() {
 
 
   return (
-    <h1>HI</h1>
+    <div className='div'>
+    <Grid />
+    </div>
   )
 }
 
-export default App
+export default App;
