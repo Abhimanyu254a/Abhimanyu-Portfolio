@@ -1,31 +1,30 @@
 @import "tailwindcss";  
 
 .Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.top{
-    background-color: #121212;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.bottom{
-    background-color: #16003c;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.bottom
+{
+    width: 195px;
 }
 
 .center{
     display: flex;
     justify-self: center;
 }
+
 .large-top{
     width: 510px;
     padding : 50px 50px 50px 50px;
     height: 475px;
     border-color: royalblue;
     border-width:10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    left:0px; 
 }
 .large-bottom{
     width: 510px;
@@ -33,23 +32,52 @@
     height: 475px;
     border-color: royalblue;
     border-width:10px 10px 10px 10px;
+    position: absolute  ;
+    bottom: 0px;
+    right: 0px;
 }
 
-.small{
+.small-bottom{
     width:100px;
     height:100px;
     border-width: 10px 10px 10px 10px;
     border-color: red;
+    position: absolute;
+    left: 185px;
+    bottom: 0px;
 }
-.center{
+.small-top{
+    width:100px;
+    height:100px;
+    border-width: 10px 10px 10px 10px;
+    border-color: red;
+    position: absolute;
+    right: 185px;
+    top: 0px;
+}
+.middle{
     width:200px;
     height:200px;
     border-width:10px 10px 10px 10px;
     border-color:blueviolet;
+    bottom: 100px;
+    position: absolute;
+    bottom: 275px;
 }
-.middle{
+.middle-top{
     width:150px;
     height: 150px;
     border-width:10px 10px 10px 10px;
-    border-color:cyan   ;
+    border-color:cyan ;
+    position: absolute;
+    top: 0px;
+}
+
+.middle-bottom{
+    width:150px;
+    height: 150px;
+    border-width:10px 10px 10px 10px;
+    border-color:cyan ;
+    position: absolute;
+    bottom: 0px;    
 }
