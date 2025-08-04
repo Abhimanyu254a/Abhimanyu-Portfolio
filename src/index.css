@@ -1,4 +1,13 @@
 @import "tailwindcss";  
+@font-face {
+    font-family: 'Cyberpunk';
+    src: 
+        url('./font/Cyberpunk.otf')
+        format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .root{
     height: 740px;
@@ -101,6 +110,7 @@
     width: 224.2px;
     height: 224.2px;
     background-color: #1D1D3B;
+    font-family: 'Cyberpunk', sans-serif ;
 
 }
 .middle-top{
@@ -125,4 +135,21 @@
     width: 394.2px;
     right: 575px;
     left: 570px;
+}
+
+@layer utilities
+{
+    @keyframes loading {
+        0%{
+            transform: translateX(-100%);
+        }
+        100%
+        {
+            transform : translateX(250%);
+        }
+    }
+    .animate-loading-bar
+    {
+        animation : loading 1s ease infinite
+    }
 }

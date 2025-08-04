@@ -17,7 +17,7 @@ function Grid()
         </div>
         <div className="center">
             <GridBlock  ClassName='middle-top' desciption={'Projects'}/>
-            <GridBlock ClassName='middle' desciption={'Me'}/>
+            <GridBlock ClassName='middle' desciption={'Cyberpunk '}/>
             <GridBlock ClassName='middle-bottom' desciption={'Achievement'}/> 
             </div> 
         
