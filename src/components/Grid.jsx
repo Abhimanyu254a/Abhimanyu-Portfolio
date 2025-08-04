@@ -12,8 +12,8 @@ function Grid()
         <div className="top">
         <GridBlock  ClassName='large-top' desciption={'About me'}/>
         
-        <GridBlock ClassName='small-bottom' desciption={'Tech_Stack'}/> 
-        <GridBlock ClassName='small-bottom' desciption={'Certication'}/> 
+        <GridBlock ClassName='small-bottom-left' desciption={'Tech_Stack'}/> 
+        <GridBlock ClassName='small-bottom-right' desciption={'Certication'}/> 
         </div>
         <div className="center">
             <GridBlock  ClassName='middle-top' desciption={'Projects'}/>
@@ -23,9 +23,9 @@ function Grid()
         
         <div className="bottom">
 
-        <GridBlock  ClassName='small-top' desciption={'G & L'}/>
-        <GridBlock ClassName='small-top' desciption={'Contact'}/>
- 
+        <GridBlock  ClassName='small-top-left' desciption={'G & L'}/>
+        <GridBlock ClassName='small-top-right' desciption={'Contact'}/>
+
 
         <GridBlock ClassName='large-bottom' desciption={'Resume'}/> 
         </div>
