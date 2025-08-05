@@ -6,7 +6,7 @@ export const LoadingScreen = ({onComplete}) =>{
 
 
     const [text, setText] = useState("");
-    const fullText = "< Breaching />"
+    const fullText = "<Hello World />"
 
     useEffect(() => {
         let index = 0;
@@ -29,6 +29,22 @@ export const LoadingScreen = ({onComplete}) =>{
         return () => clearInterval(interval);
     },[onComplete]);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     return(
         <div className="fixed inset-0 z-50 bg-[#121212] text-grey-100 flex flex-col items-center justify-center">
             <div className="mb-4 text-4xl font-[Cyberpunk] font-bold">

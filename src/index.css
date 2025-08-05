@@ -38,23 +38,36 @@
     width: 510px;
     padding : 50px 50px 50px 50px;
     height: 475px;
-    border-color:#1D1D3B;
-    border-width:25px 25px 25px 25px; 
     position: absolute;
     left: 30px;
     top: 30px; 
-    background-color: #1D1D3B;
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    transition: background-color 0.9s ease-in-out, transform 0.2s ease-out;
 }
+.large-top:hover {
+    /* Styles when hovered */
+    background: #7914dd; /* Your lighter, neon-like color */
+    /* Slightly lift the box and scale it up to come forward */
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+    }
+
 .large-bottom{
     width: 510px;
     padding : 50px 50px 50px 50px;
     height: 475px;
-        border-color:#1D1D3B;
-    border-width:25px 25px 25px 25px;
     position: absolute  ;
     bottom: 30px;
     right: 30px;
-    background-color: #1D1D3B;
+    background: blue;
+    transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
+
+}
+.large-bottom:hover{
+background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%); /* Your lighter, neon-like color */
+    /* Slightly lift the box and scale it up to come forward */
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
 }
 
 .small-bottom-left{
@@ -111,8 +124,15 @@
     height: 224.2px;
     background-color: #1D1D3B;
     font-family: 'Cyberpunk', sans-serif ;
-
+    transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
 }
+.middle:hover {
+            /* Styles when hovered */
+            background-color: #1f1263; /* Your lighter, neon-like color */
+            /* Slightly lift the box and scale it up to come forward */
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+        }
 .middle-top{
     border-width:25px 25px 25px 25px;
     border-color:#1D1D3B;
@@ -123,6 +143,7 @@
     right: 575px;
     left: 570px;
     background-color: #1D1D3B;
+    font-family: monospace;
 }
 
 .middle-bottom{
@@ -135,7 +156,9 @@
     width: 394.2px;
     right: 575px;
     left: 570px;
+    
 }
+
 
 @layer utilities
 {
@@ -150,6 +173,32 @@
     }
     .animate-loading-bar
     {
-        animation : loading 1s ease infinite
+        animation : loading 3s ease infinite
     }
 }
+
+        .hover-box {
+            /* Base styles for the div */
+            background-color: #191934; /* Your base dark color */
+            width: 300px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #E0D8FF; /* Light text color for contrast */
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 1rem; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+
+            /* Smooth transition for background color and transform */
+            transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
+        }
+
+        .large-top:hover {
+            /* Styles when hovered */
+            background-color: #B366FF; /* Your lighter, neon-like color */
+            /* Slightly lift the box and scale it up to come forward */
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+        }
