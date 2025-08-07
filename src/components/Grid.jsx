@@ -1,5 +1,6 @@
 import React from "react"
 import GridBlock from "./GridBlock";
+import ImageGridBlock from "./ImageGridBlock";
 
     //width-560px;
     //height-525px;
@@ -17,7 +18,7 @@ function Grid()
         </div>
         <div className="center">
             <GridBlock  ClassName='middle-top' desciption={'Projects'}/>
-            <GridBlock ClassName='middle' desciption={'Cyberpunk '}/>
+            <ImageGridBlock ClassName='middle' desciption={'ME'} image ={'./src/asset/IMG_20241019_104502_277.jpg'}/>
             <GridBlock ClassName='middle-bottom' desciption={'Achievement'}/> 
             </div> 
         

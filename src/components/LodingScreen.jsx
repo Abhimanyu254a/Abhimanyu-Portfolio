@@ -6,7 +6,7 @@ export const LoadingScreen = ({onComplete}) =>{
 
 
     const [text, setText] = useState("");
-    const fullText = "<Hello World />"
+    const fullText = "<Hello World /> ;"
 
     useEffect(() => {
         let index = 0;
@@ -22,25 +22,12 @@ export const LoadingScreen = ({onComplete}) =>{
                 setTimeout(() =>
                 {
                     onComplete();
-                },1000)
+                },100)// do it again 1000
             }
         },100);
 
         return () => clearInterval(interval);
     },[onComplete]);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

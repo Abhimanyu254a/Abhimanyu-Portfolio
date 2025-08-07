@@ -46,7 +46,7 @@
 }
 .large-top:hover {
     /* Styles when hovered */
-    background: #7914dd; /* Your lighter, neon-like color */
+    background: #1d012c; /* Your lighter, neon-like color */
     /* Slightly lift the box and scale it up to come forward */
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
@@ -59,7 +59,7 @@
     position: absolute  ;
     bottom: 30px;
     right: 30px;
-    background: blue;
+    background: rgb(3, 3, 60);
     transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
 
 }
@@ -195,10 +195,50 @@ background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33,
             transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
         }
 
-        .large-top:hover {
+        .sfd:hover {
             /* Styles when hovered */
             background-color: #B366FF; /* Your lighter, neon-like color */
             /* Slightly lift the box and scale it up to come forward */
             transform: translateY(-5px) scale(1.05);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
         }
+
+
+
+.large-top,.large-bottom,.small-bottom-left,.small-bottom-right,.small-top-left,.small-top-right,.middle-bottom,.middle-top{
+    animation: fade-in 2s forwards; /* Apply the fade-in animation for 2 seconds */
+    opacity: 0;
+    animation-delay: 4s;
+}
+
+
+.middle {
+    object-fit: cover;
+    opacity: 0; /* The image starts as completely invisible */
+    animation: lts 2s forwards, fade-in 2s  forwards; /* Apply the fade-in animation for 2 seconds */
+    animation-delay: 2s;
+
+}
+
+
+
+
+/* The actual animation definition */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes lts {
+    from {
+        scale : 1.25;
+    }
+    to {
+        scale : 1;
+    }
+    
+}
