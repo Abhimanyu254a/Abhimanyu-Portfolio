@@ -12,7 +12,9 @@
 .root{
     height: 740px;
 }
-
+body{
+    background-color: #121212;
+}
 *{
     border-radius: 25px;
 }
@@ -34,83 +36,237 @@
     justify-self: center;
 }
 
-.large-top{
+.large-top0,.large-top1{
     width: 510px;
-    padding : 50px 50px 50px 50px;
     height: 475px;
     position: absolute;
     left: 30px;
     top: 30px; 
-    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
-    transition: background-color 0.9s ease-in-out, transform 0.2s ease-out;
+    
 }
-.large-top:hover {
-    /* Styles when hovered */
-    background: #1d012c; /* Your lighter, neon-like color */
-    /* Slightly lift the box and scale it up to come forward */
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
-    }
+.large-top0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
 
-.large-bottom{
+
+}
+
+.large-top1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.large-top1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+.large-bottom0,.large-bottom1{
     width: 510px;
-    padding : 50px 50px 50px 50px;
     height: 475px;
     position: absolute  ;
     bottom: 30px;
     right: 30px;
-    background: rgb(3, 3, 60);
-    transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
 
 }
-.large-bottom:hover{
-background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%); /* Your lighter, neon-like color */
-    /* Slightly lift the box and scale it up to come forward */
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+.large-bottom0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+}
+.large-bottom1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.large-bottom1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.small-bottom-left{
+
+
+
+.small-bottom-left0,.small-bottom-left1{
     width: 237px;
-    height: 178.5px;
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
+    height: 179px;
     position: absolute;
     left: 30px;
     bottom: 30px;
-    background-color: #1D1D3B;
-    
 }
-.small-bottom-right{
+.small-bottom-left0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+}
+.small-bottom-left1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    top:0px;
+    left: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+
+.small-bottom-left1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.small-bottom-right0,.small-bottom-right1{
     width: 237px;
-    height: 178.5px;
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
+    height: 179px;
     position: absolute;
-    background-color: #1D1D3B;
     bottom: 30px;
     left: 300px;
 }
-.small-top-left{
-    width: 237px;
-    height: 178.5px;
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
-    position: absolute;
-        right: 30px;
-    top: 30px;
-    background-color: #1D1D3B;
+.small-bottom-right0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+
+
 }
-.small-top-right{
+
+.small-bottom-right1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    left:0px;
+    top: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.small-bottom-right1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+.small-top-left0,.small-top-left1{
     width: 237px;
-    height: 178.5px;  
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
+    height: 179px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.small-top-left0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+
+
+}
+
+.small-top-left1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    right: 0px;
+    top: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.small-top-left1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.small-top-right0,.small-top-right1{
+    width: 237px;
+    height: 179px;  
     position: absolute;
     right: 300px;
     top: 30px;
-    background-color: #1D1D3B;
 }
+.small-top-right0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+
+
+}
+
+.small-top-right1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    right: 0px;
+    top: 0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.small-top-right1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 .middle{
 
@@ -133,31 +289,97 @@ background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33,
             transform: translateY(-5px) scale(1.05);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
         }
-.middle-top{
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
+
+
+        
+
+
+
+.middle-top0,.middle-top1{
     position: absolute;
     top: 30px;
     height: 214.2px;
     width: 394.2px;
     right: 575px;
     left: 570px;
-    background-color: #1D1D3B;
+
     font-family: monospace;
 }
+.middle-top0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
 
-.middle-bottom{
-    border-width:25px 25px 25px 25px;
-    border-color:#1D1D3B;
+
+}
+
+.middle-top1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.middle-top1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+.middle-bottom0,.middle-bottom1{
     position: absolute;
     bottom: 30px;
-    background-color: #1D1D3B;
     height: 214.2px;
     width: 394.2px;
     right: 575px;
     left: 570px;
-    
 }
+.middle-bottom0{
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+
+
+}
+
+.middle-bottom1{
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    border-radius: 10px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    transition: all .25s cubic-bezier(0,0,0,1);
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0s ease-in-out, transform 0.2s ease-out;
+}
+.middle-bottom1:hover{
+
+    border-radius: 18px;
+    background: #161649;
+
+    transform: translateY(0px) scale(.98);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
 
 
 @layer utilities
@@ -195,7 +417,7 @@ background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33,
             transition: background-color 0.4s ease-in-out, transform 0.2s ease-out;
         }
 
-        .sfd:hover {
+        .large-top0:hover {
             /* Styles when hovered */
             background-color: #B366FF; /* Your lighter, neon-like color */
             /* Slightly lift the box and scale it up to come forward */
@@ -205,12 +427,17 @@ background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33,
 
 
 
-.large-top,.large-bottom,.small-bottom-left,.small-bottom-right,.small-top-left,.small-top-right,.middle-bottom,.middle-top{
+.large-top0,.large-top1,.large-bottom0,.large-bottom1,.small-bottom-left0,.small-bottom-left1,.small-bottom-right0,.small-bottom-right1,.small-top-left0,.small-top-left1,.small-top-right0,.small-top-right1,.middle-bottom0,.middle-bottom1,.middle-top0,.middle-top1{
     animation: fade-in 2s forwards; /* Apply the fade-in animation for 2 seconds */
     opacity: 0;
     animation-delay: 4s;
 }
-
+.large-top0,.large-bottom0,.small-bottom-left0,.small-bottom-right0,.small-top-left0,.small-top-right0,.middle-bottom0,.middle-top0
+{
+    animation: fade-in 2s forwards; /* Apply the fade-in animation for 2 seconds */
+    opacity: 0;
+    animation-delay: 5s;
+}
 
 .middle {
     object-fit: cover;
@@ -242,3 +469,4 @@ background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33,
     }
     
 }
+
