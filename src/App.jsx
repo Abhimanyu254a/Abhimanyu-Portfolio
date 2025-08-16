@@ -2,29 +2,25 @@ import Grid from './components/Grid.jsx'
 import './index.css'
 import { LoadingScreen } from './components/LodingScreen.jsx';
 import { useState } from 'react';
-
+import Stars from './components/Star.jsx';
 
 function App() {
-
-
-  const [isLoaded , setIsLoaded ] = useState(false) 
-
-
+  const [isLoaded, setIsLoaded] = useState(false);
 
   return (
     <>
-    {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}
-
-
-
-
-    <Grid />
+      {/* Add your Stars component here if you want background stars */}
+      
+      
+      {/* Add your LoadingScreen component here if you want loading screen */}
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}
+      <Stars />
+      <Grid />
     </>
   )
 }
 
 export default App;
-
 // import Grid from './components/Grid.jsx';
 // import './index.css';
 // import { LoadingScreen } from './components/LodingScreen.jsx';

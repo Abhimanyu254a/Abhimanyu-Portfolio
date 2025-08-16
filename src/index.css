@@ -74,7 +74,25 @@ body{
 
 
 
+body {
+  background-color: 6#212121;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
 
+
+
+.star {
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.4);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: white;
+  transition: opacity 0.5s ease-in-out; /* Add a transition for the animation */
+  z-index: -1;
+}
 
 
 
@@ -87,6 +105,8 @@ body{
     position: absolute  ;
     bottom: 30px;
     right: 30px;
+    left:-348px;
+    top:-120px;
 
 }
 .large-bottom0{
@@ -117,11 +137,12 @@ body{
 
 
 .small-bottom-left0,.small-bottom-left1{
-    width: 237px;
+    width: 237.5px;
     height: 179px;
     position: absolute;
     left: 30px;
     bottom: 30px;
+    top: 60px;
 }
 .small-bottom-left0{
     background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
@@ -153,11 +174,12 @@ body{
 
 
 .small-bottom-right0,.small-bottom-right1{
-    width: 237px;
+    width: 237.5px;
     height: 179px;
     position: absolute;
-    bottom: 30px;
     left: 300px;
+    bottom: 120px;
+
 }
 .small-bottom-right0{
     background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
@@ -197,8 +219,10 @@ body{
     width: 237px;
     height: 179px;
     position: absolute;
-    right: 30px;
+
+    left:-83px;
     top: 30px;
+
 }
 .small-top-left0{
     background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
@@ -213,6 +237,7 @@ body{
     border-radius: 10px;
     right: 0px;
     top: 0px;
+    left:0px;
     transition: all .25s cubic-bezier(0,0,0,1);
     padding: 15px;
     cursor: pointer;
@@ -232,11 +257,11 @@ body{
 
 
 .small-top-right0,.small-top-right1{
-    width: 237px;
+    width: 236px;
     height: 179px;  
     position: absolute;
-    right: 300px;
-    top: 30px;
+    right: 349px;
+    top: -148px;
 }
 .small-top-right0{
     background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
@@ -266,8 +291,6 @@ body{
 }
 
 
-
-
 .middle{
 
     border-width:25px 25px 25px 25px;
@@ -290,18 +313,25 @@ body{
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
         }
 
+.middle0{
+    position: fixed;
+    background: linear-gradient(125deg, oklch(22.911% 0.05149 281.555) 50%, rgba(33, 49, 102, 1) 100%);
+    bottom:40px;
 
-        
-
+}
+.middle0{
+    height: 200px;
+    width: 200px;
+}
 
 
 .middle-top0,.middle-top1{
     position: absolute;
-    top: 30px;
+    top: -285px;
     height: 214.2px;
     width: 394.2px;
     right: 575px;
-    left: 570px;
+    left: 60px;
 
     font-family: monospace;
 }
@@ -341,11 +371,13 @@ body{
 
 .middle-bottom0,.middle-bottom1{
     position: absolute;
-    bottom: 30px;
+    
+    top:180px;
     height: 214.2px;
     width: 394.2px;
-    right: 575px;
-    left: 570px;
+    left: -775px;
+
+
 }
 .middle-bottom0{
     background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
@@ -361,6 +393,7 @@ body{
     left: 0px;
     right: 0px;
     bottom:0px;
+    top:0px;
     transition: all .25s cubic-bezier(0,0,0,1);
     padding: 15px;
     cursor: pointer;
@@ -374,8 +407,6 @@ body{
     transform: translateY(0px) scale(.98);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-
-
 
 
 
@@ -427,27 +458,40 @@ body{
 
 
 
+
 .large-top0,.large-top1,.large-bottom0,.large-bottom1,.small-bottom-left0,.small-bottom-left1,.small-bottom-right0,.small-bottom-right1,.small-top-left0,.small-top-left1,.small-top-right0,.small-top-right1,.middle-bottom0,.middle-bottom1,.middle-top0,.middle-top1{
     animation: fade-in 2s forwards; /* Apply the fade-in animation for 2 seconds */
     opacity: 0;
     animation-delay: 4s;
 }
-.large-top0,.large-bottom0,.small-bottom-left0,.small-bottom-right0,.small-top-left0,.small-top-right0,.middle-bottom0,.middle-top0
+.large-top0:hover,.large-bottom0:hover,.small-bottom-left0:hover,.small-bottom-right0:hover,.small-top-left0:hover,.small-top-right0:hover,.middle-bottom0:hover,.middle-top0:hover
 {
     animation: fade-in 2s forwards; /* Apply the fade-in animation for 2 seconds */
     opacity: 0;
     animation-delay: 5s;
 }
 
-.middle {
+.middle0 {
     object-fit: cover;
     opacity: 0; /* The image starts as completely invisible */
     animation: lts 2s forwards, fade-in 2s  forwards; /* Apply the fade-in animation for 2 seconds */
     animation-delay: 2s;
 
 }
+.middle-top-div{
+    width: 0px;
+    height: 0px;
+}
+.middle-bottom-div
+{
+    width: 0px;
+    height: 0px;
+}
 
-
+.middle0{
+    right:210px;
+    width: 200px;margin-left: 343px;margin-right: 289px;
+}
 
 
 /* The actual animation definition */
@@ -470,3 +514,59 @@ body{
     
 }
 
+/* Add these styles to your existing index.css file */
+
+/* Container blur effect */
+.Container {
+  transition: filter 0.3s ease;
+}
+
+.blur-background {
+  filter: blur(5px);
+}
+
+/* Grid block hover effects */
+.grid-block {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-block:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-block:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Modal animations */
+.modal-overlay {
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { 
+    opacity: 0;
+    transform: scale(0.8) translateY(-20px);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Optional: Make grid blocks more interactive */
+.grid-block {
+  cursor: pointer;
+  user-select: none;
+}
