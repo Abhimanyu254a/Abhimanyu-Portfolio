@@ -1,9 +1,4 @@
-/*
-=============================================================================
-📄 FILE: src/components/GridBlock.jsx
-🔄 ACTION: REPLACE your existing GridBlock.jsx file with this code
-=============================================================================
-*/
+
 
 import React from "react";
 
@@ -18,7 +13,7 @@ function GridBlock({ ClassName, desciption, content, isClickable = true }) {
       }}
     >
       <div className={ClassName + "1"}>
-        {desciption}
+        <h1 className={ClassName+ "-heading"}>{desciption}</h1>
       </div>
     </div>
   );

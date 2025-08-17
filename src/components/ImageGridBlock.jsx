@@ -1,9 +1,4 @@
-/*
-=============================================================================
-📄 FILE: src/components/ImageGridBlock.jsx
-🔄 ACTION: REPLACE your existing ImageGridBlock.jsx file with this code
-=============================================================================
-*/
+
 
 import React from "react";
 
