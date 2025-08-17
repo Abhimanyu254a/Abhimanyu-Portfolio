@@ -370,8 +370,8 @@ function Grid() {
         </div>
         <div>
           <a 
-            href="#" 
-            onClick={() => {/* Add your GitHub link here */}} 
+            href="https://github.com/Abhimanyu254a/Chatgpt-Clone" 
+            onClick={() => {}} 
             style={{ color: '#1976d2', textDecoration: 'none', marginRight: '16px', fontSize: '13px' }}
           >
             🔗 GitHub
@@ -420,7 +420,7 @@ function Grid() {
         </div>
         <div>
           <a 
-            href="#" 
+            href="https://github.com/Abhimanyu254a/Object-Detection-Pipeline" 
             onClick={() => {/* Add your GitHub link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', marginRight: '16px', fontSize: '13px' }}
           >
@@ -470,7 +470,7 @@ function Grid() {
         </div>
         <div>
           <a 
-            href="#" 
+            href="https://github.com/Abhimanyu254a/Stock-mark-price-Predictor-AI-" 
             onClick={() => {/* Add your GitHub link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', marginRight: '16px', fontSize: '13px' }}
           >
@@ -524,7 +524,7 @@ function Grid() {
         </div>
         <div>
           <a 
-            href="#" 
+            href="https://github.com/Abhimanyu254a/Airlines-Data-Scraping" 
             onClick={() => {/* Add your GitHub link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', marginRight: '16px', fontSize: '13px' }}
           >
@@ -569,7 +569,7 @@ function Grid() {
             ))}
           </div>
           <a 
-            href="#" 
+            href="https://github.com/Abhimanyu254a/NULL_Engine" 
             onClick={() => {/* Add your GitHub link here */}} 
             style={{ color: '#6c757d', textDecoration: 'none', fontSize: '12px' }}
           >
@@ -600,7 +600,7 @@ function Grid() {
             ))}
           </div>
           <a 
-            href="#" 
+            href="https://github.com/Abhimanyu254a/JARVIS" 
             onClick={() => {/* Add your GitHub link here */}} 
             style={{ color: '#6c757d', textDecoration: 'none', fontSize: '12px' }}
           >
@@ -671,7 +671,7 @@ function Grid() {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
           <a 
-            href="#" 
+            href="https://leetcode.com/u/Abhimanyu254A/" 
             onClick={() => {/* Add your LeetCode profile link here */}} 
             style={{ 
               color: '#1976d2', 
@@ -723,7 +723,7 @@ function Grid() {
             ))}
           </div>
           <a 
-            href="#" 
+            href="https://drive.google.com/file/d/1lKNTW0ekUj7Roif-oERT-qJxL2nvGtWf/view?usp=drive_link" 
             onClick={() => {/* Add certification link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', fontSize: '12px' }}
           >
@@ -757,7 +757,7 @@ function Grid() {
             ))}
           </div>
           <a 
-            href="#" 
+            href="https://drive.google.com/file/d/16wbS2ssHURaVcBJWC8y9XMsWaJCIlBV9/view?usp=drive_link" 
             onClick={() => {/* Add certification link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', fontSize: '12px' }}
           >
@@ -791,7 +791,7 @@ function Grid() {
             ))}
           </div>
           <a 
-            href="#" 
+            href="https://drive.google.com/file/d/1fNUt2rHoBNqcu2BQI-w7ahwn00HsYwl3/view?usp=drive_link" 
             onClick={() => {/* Add certification link here */}} 
             style={{ color: '#1976d2', textDecoration: 'none', fontSize: '12px' }}
           >
@@ -1119,8 +1119,9 @@ function Grid() {
         
         {/* Download Buttons */}
         <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
+          <a href="https://drive.google.com/uc?export=download&id=14KiD2-zhzwVsBEj38hI17QfDFGRHr3iU">
           <button 
-            onClick={() => {/* Add your resume download link here */}}
+            onClick={() => {}}
             style={{
               backgroundColor: '#1976d2',
               color: 'white',
@@ -1137,8 +1138,8 @@ function Grid() {
             }}
           >
             📄 Download PDF
-          </button>
-          <button 
+          </button></a>
+          <a href="https://drive.google.com/file/d/14KiD2-zhzwVsBEj38hI17QfDFGRHr3iU/preview"><button 
             onClick={() => {/* Add your online resume link here */}}
             style={{
               backgroundColor: 'transparent',
@@ -1156,7 +1157,7 @@ function Grid() {
             }}
           >
             👀 View Online
-          </button>
+          </button></a>
         </div>
 
         {/* Additional Info */}
