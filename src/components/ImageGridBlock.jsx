@@ -18,9 +18,9 @@ function ImageGridBlock({ ClassName, desciption }) {
           alt="Profile" 
           style={{
             width: '100%',
-            height: '100%',
             objectFit: 'cover',
-            borderRadius: '8px'
+            borderRadius: '8px',
+            height : '215px'
           }}
         />
       </div>
