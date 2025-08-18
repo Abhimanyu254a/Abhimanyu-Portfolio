@@ -14,7 +14,7 @@ function ImageGridBlock({ ClassName, desciption }) {
       <div className={ClassName + "1"}>
         {/* 🔄 REPLACE /api/placeholder/200/200 with your actual image path */}
         <img 
-          src="/api/placeholder/200/200" 
+          src="./src/asset/IMG_20241019_104502_277.jpg" 
           alt="Profile" 
           style={{
             width: '100%',

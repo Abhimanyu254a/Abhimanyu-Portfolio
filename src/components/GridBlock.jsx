@@ -2,7 +2,7 @@
 
 import React from "react";
 
-function GridBlock({ ClassName, desciption, content, isClickable = true }) {
+function GridBlock({ ClassName, desciption, preview, isClickable = true }) {
   return (
     <div 
       className={ClassName + "0 grid-block"} 
@@ -13,7 +13,10 @@ function GridBlock({ ClassName, desciption, content, isClickable = true }) {
       }}
     >
       <div className={ClassName + "1"}>
-        <h1 className={ClassName+ "-heading"}>{desciption}</h1>
+        <div className={ClassName+ "2"}>
+        <div ><p className={ClassName+ "-h1"}>{desciption}</p></div>
+        <div><p className={ClassName+"-h2"}>{preview}</p></div>
+      </div>
       </div>
     </div>
   );

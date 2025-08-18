@@ -1189,17 +1189,17 @@ function Grid() {
         <div className="top">
           {/* ABOUT ME - Large top block */}
           <div onClick={() => handleBlockClick('about')}>
-            <GridBlock ClassName='large-top' desciption={'About Me'} />
+            <GridBlock ClassName='large-top' desciption={'About Me'} preview={"🧠 Logic meets imagination"} />
           </div>
           
           {/* TECH STACK - Small bottom left block */}
           <div onClick={() => handleBlockClick('tech')}>
-            <GridBlock ClassName='small-bottom-left' desciption={'Tech Stack'} />
+            <GridBlock ClassName='small-bottom-left' desciption={'Tech Stack'} preview={"Tools of Creation⚡"}/>
           </div>
           
           {/* CERTIFICATIONS - Small bottom right block */}
           <div onClick={() => handleBlockClick('certification')}>
-            <GridBlock ClassName='small-bottom-right' desciption={'Certification'} />
+            <GridBlock ClassName='small-bottom-right' desciption={'Certification'} preview={"Milestones Unlocked🎓"}/>
           </div>
         </div>
         
@@ -1207,7 +1207,7 @@ function Grid() {
         <div className="center">
           {/* PROJECTS - Middle top block */}
           <div className="middle-top-div h-0px w-0px"  onClick={() => handleBlockClick('projects')}>
-            <GridBlock ClassName='middle-top' desciption={'Projects'} />
+            <GridBlock ClassName='middle-top' desciption={'Projects'} preview={"Ideas in Action 🚀"}/>
           </div>
           
           {/* PROFILE IMAGE - Middle center block (NOT CLICKABLE) */}
@@ -1215,7 +1215,7 @@ function Grid() {
           
           {/* ACHIEVEMENTS - Middle bottom block */}
           <div className="middle-bottom-div h-0px w-0px" onClick={() => handleBlockClick('achievement')}>
-            <GridBlock ClassName='middle-bottom' desciption={'Achievement'} />
+            <GridBlock ClassName='middle-bottom' desciption={'Achievement'} preview={"Proud Moments 🏅"}/>
           </div>
         </div>
         
@@ -1223,17 +1223,17 @@ function Grid() {
         <div className="bottom">
           {/* GITHUB & LINKEDIN - Small top left block */}
           <div onClick={() => handleBlockClick('github')}>
-            <GridBlock ClassName='small-top-left' desciption={'Social Media'} />
+            <GridBlock ClassName='small-top-left' desciption={'Social Media'} preview={"Connect & Share 🌐"}/>
           </div>
           
           {/* CONTACT - Small top right block */}
           <div onClick={() => handleBlockClick('contact')}>
-            <GridBlock ClassName='small-top-right' desciption={'Contact'} />
+            <GridBlock ClassName='small-top-right' desciption={'Contact'} preview={"Let’s Talk 📬"}/>
           </div>
           
           {/* RESUME - Large bottom block */}
           <div onClick={() => handleBlockClick('resume')}>
-            <GridBlock ClassName='large-bottom' desciption={'Resume'} />
+            <GridBlock ClassName='large-bottom' desciption={'Resume'} preview={"My Journey 📄"}/>
           </div>
         </div>
       </div>

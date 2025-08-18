@@ -50,14 +50,7 @@ function Modal({ isOpen, onClose, title, content, children }) {
       >
         {/* Modal Header */}
         <div style={{ marginBottom: '24px' }}>
-          <h2 style={{ 
-            fontSize: '24px', 
-            fontWeight: 'bold', 
-            marginBottom: '16px',
-            color: '#333'
-          }}>
-            {title}
-          </h2>
+
           {/* Modal Content */}
           <div style={{ color: '#666', lineHeight: '1.6' }}>
             {children || content}
