@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+
  // Make sure to import the CSS file
 
 const Stars = () => {

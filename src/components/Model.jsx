@@ -1,10 +1,3 @@
-/*
-=============================================================================
-📄 FILE: src/components/Modal.jsx
-✨ ACTION: CREATE NEW FILE - This file doesn't exist yet, create it
-=============================================================================
-*/
-
 import React from 'react';
 
 function Modal({ isOpen, onClose, title, content, children }) {

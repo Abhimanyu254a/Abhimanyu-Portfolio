@@ -1,15 +1,8 @@
-/*
-=============================================================================
-📄 FILE: src/components/Grid.jsx
-🔄 ACTION: REPLACE your existing Grid.jsx file with this code
-🎯 SOLUTION: All divs stay visible with blur effect when modal opens
-=============================================================================
-*/
-
 import React, { useState } from "react";
 import GridBlock from "./GridBlock";
 import ImageGridBlock from "./ImageGridBlock";
 import Modal from "./Model";
+
 
 function Grid() {
   // State to track which modal is currently open (null = no modal open)
