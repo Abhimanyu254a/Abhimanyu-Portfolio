@@ -542,7 +542,7 @@ function Grid() {
         {/* NULL_Engine */}
         <div style={{ marginBottom: '16px', paddingBottom: '12px', borderBottom: '1px solid #dee2e6' }}>
           <h4 style={{ marginBottom: '8px', color: '#495057', fontSize: '14px', fontWeight: '600' }}>
-            🎮 NULL_Engine
+            🎮 Shunya
           </h4>
           <p style={{ marginBottom: '8px', color: '#6c757d', fontSize: '13px' }}>
             A custom game engine built from scratch - currently in active development with focus on 
