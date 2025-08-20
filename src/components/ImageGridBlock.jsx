@@ -2,6 +2,7 @@
 
 import React from "react";
 
+
 function ImageGridBlock({ ClassName, desciption }) {
   return (
     <div 
@@ -14,7 +15,7 @@ function ImageGridBlock({ ClassName, desciption }) {
       <div className={ClassName + "1"}>
         {/* 🔄 REPLACE /api/placeholder/200/200 with your actual image path */}
         <img 
-          src="./src/asset/IMG_20241019_104502_277.jpg" 
+          src="https://avatars.githubusercontent.com/u/115303576?s=400&u=592c407633b4bddc1634e83fe9c13cd02c7c925c&v=4" 
           alt="Profile" 
           style={{
             width: '100%',
